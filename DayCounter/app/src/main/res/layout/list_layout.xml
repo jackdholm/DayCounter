@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/CounterName"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:autoSizeMaxTextSize="30sp"
+        android:autoSizeMinTextSize="16sp"
+        android:text="TestingeSFSARG"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/CounterDate"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="170dp"
+        android:textSize="18sp"
+        android:autoSizeMinTextSize="16sp"
+        android:autoSizeMaxTextSize="30sp"
+        android:text="00/00/0000"
+        />
+
+    <TextView
+        android:id="@+id/CounterNumber"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="290dp"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"
+        android:autoSizeMinTextSize="16sp"
+        android:autoSizeMaxTextSize="30sp"
+        android:text="0000 days"
+        />
+
+</RelativeLayout>
